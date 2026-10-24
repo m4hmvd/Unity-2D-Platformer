@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
     {
 
     }
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (target != null)
         {

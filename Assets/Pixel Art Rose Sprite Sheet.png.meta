@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: d78dab2089016594bb7413177da8548d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 514
+        width: 373
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94deefc3164a6946845d3beba9cf44a
+      internalID: 1225684736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 510
+        width: 363
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58401430a900564ca62f991d0d0e675
+      internalID: -1957143427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 824
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92925326366fbf240a8c102a5a00c174
+      internalID: 1402784739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 512
+        width: 405
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae8ca9115e725645a6709803ee35b11
+      internalID: 1382533893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 520
+        width: 367
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8da80fce814b48b9483191306601d
+      internalID: -1252077631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 772
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624cd2a296dcf94c90b7a30e42f50b2
+      internalID: -2014870763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 775
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be164960754939479da46731379f771
+      internalID: 576887331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 741
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c8e9229dcf204290da80839e52eca
+      internalID: -920131917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 690
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dacfdcc684f9d244be013200f6e5348
+      internalID: 1853973932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 652
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac6cd586456fc145b536458e637736d
+      internalID: -283530098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 645
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5029c5687a5abd428a9b4397624fa99
+      internalID: 811141634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 542
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3940308b96b7694bae948e501c84992
+      internalID: -145167728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 558
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2600a986286814440936dd1e7ca5da95
+      internalID: -1659179985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 550
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b6804c0505fe47b52857d0d966995
+      internalID: 611847159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 552
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8465bdc30ad3de498dc08a889bfa0b4
+      internalID: -1334904384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 539
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dcce424e379ed408338e324d8fb2b9
+      internalID: -1873574331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 536
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc28078b0498fa6489f983898f9d0b4f
+      internalID: -1519475957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 284
+        width: 196
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff284af94efc3b49b6c564d2d4dd133
+      internalID: 827925843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 288
+        width: 387
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485215b07f0e9b84ab7c550cc3acefe7
+      internalID: 1695117573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 460
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe05ade850b9c34590f5e5b34ca847e
+      internalID: -1011385570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 362
+        width: 25
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bd6561b44ea7949aa8efffd7de58cf
+      internalID: -2039093280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 260
+        width: 95
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f38a9eaaf77a3247b675572f180e256
+      internalID: 1668684918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 310
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e6d1e351839544d95c7d87620f722a
+      internalID: 2104020625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 313
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a761f7ba85bc684fad6b46b64bbf498
+      internalID: -264675015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7defcc7da080624996e7b3b0f868f6f
+      internalID: 370191015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 290
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfe52a0de01a3948972f6c371cf12f4
+      internalID: 1214053813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 367
+        width: 203
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6635266a618d447ac6381340e91a5e
+      internalID: -1843463431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 604
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eeace45614740478717b94cb09c3e6
+      internalID: 1846467259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 275
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafbc491c65cf784cb5ddd005d20354f
+      internalID: 544536215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 272
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e188c84d42a677e45ba513a5a806c860
+      internalID: 307869257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 272
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e380d4b2057d7f459834fa555941052
+      internalID: -1776890372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 272
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09682627ced42a64596d1900ea14e10b
+      internalID: -525683093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 20
+        width: 345
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14fd19f21de7d4e9c4dbe42f8c17e7
+      internalID: -1853138840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 36
+        width: 105
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446cc2b74e38a87419e777ffa900bc0e
+      internalID: 1879426263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 120
+        width: 111
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0dcfb6bf17c0b40b4290f32f01c3b6
+      internalID: -1712767267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 150
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54371ba6fa4e0824daf0a41f00940219
+      internalID: -400593985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 160
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c36786a77624484eaa002196e3a5deb
+      internalID: 5962217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 120
+        width: 65
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ce81cb33633d743bf56d66c4ee0a09
+      internalID: 1556688330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c346d289dc348438cdfadd846b957f
+      internalID: -783435948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 38
+        width: 85
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d7e31366d907b4b9c97be260258705
+      internalID: -909627074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Rose Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 64
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d121fef919105434caf5889d705b7aed
+      internalID: 1732472211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pixel Art Rose Sprite Sheet_32: -1843463431
+      Pixel Art Rose Sprite Sheet_47: -783435948
+      Pixel Art Rose Sprite Sheet_21: 827925843
+      Pixel Art Rose Sprite Sheet_24: -2039093280
+      Pixel Art Rose Sprite Sheet_19: -1519475957
+      Pixel Art Rose Sprite Sheet_8: 1853973932
+      Pixel Art Rose Sprite Sheet_45: 5962217
+      Pixel Art Rose Sprite Sheet_17: -1873574331
+      Pixel Art Rose Sprite Sheet_33: 1846467259
+      Pixel Art Rose Sprite Sheet_9: -283530098
+      Pixel Art Rose Sprite Sheet_29: 370191015
+      Pixel Art Rose Sprite Sheet_0: 1225684736
+      Pixel Art Rose Sprite Sheet_46: 1556688330
+      Pixel Art Rose Sprite Sheet_38: -1853138840
+      Pixel Art Rose Sprite Sheet_15: 611847159
+      Pixel Art Rose Sprite Sheet_37: -525683093
+      Pixel Art Rose Sprite Sheet_3: 1382533893
+      Pixel Art Rose Sprite Sheet_35: 307869257
+      Pixel Art Rose Sprite Sheet_1: -1957143427
+      Pixel Art Rose Sprite Sheet_28: 2130280288
+      Pixel Art Rose Sprite Sheet_43: -1712767267
+      Pixel Art Rose Sprite Sheet_48: -909627074
+      Pixel Art Rose Sprite Sheet_42: -1789653610
+      Pixel Art Rose Sprite Sheet_31: 2122117971
+      Pixel Art Rose Sprite Sheet_34: 544536215
+      Pixel Art Rose Sprite Sheet_44: -400593985
+      Pixel Art Rose Sprite Sheet_49: 1732472211
+      Pixel Art Rose Sprite Sheet_27: -264675015
+      Pixel Art Rose Sprite Sheet_13: 730717216
+      Pixel Art Rose Sprite Sheet_18: 1960742774
+      Pixel Art Rose Sprite Sheet_39: 1261384832
+      Pixel Art Rose Sprite Sheet_14: -1659179985
+      Pixel Art Rose Sprite Sheet_25: 1668684918
+      Pixel Art Rose Sprite Sheet_40: -1355772541
+      Pixel Art Rose Sprite Sheet_5: -2014870763
+      Pixel Art Rose Sprite Sheet_12: 1648570793
+      Pixel Art Rose Sprite Sheet_2: 1402784739
+      Pixel Art Rose Sprite Sheet_11: -145167728
+      Pixel Art Rose Sprite Sheet_6: 576887331
+      Pixel Art Rose Sprite Sheet_20: -1536494213
+      Pixel Art Rose Sprite Sheet_30: 1214053813
+      Pixel Art Rose Sprite Sheet_22: 1695117573
+      Pixel Art Rose Sprite Sheet_36: -1776890372
+      Pixel Art Rose Sprite Sheet_4: -1252077631
+      Pixel Art Rose Sprite Sheet_10: 811141634
+      Pixel Art Rose Sprite Sheet_26: 2104020625
+      Pixel Art Rose Sprite Sheet_16: -1334904384
+      Pixel Art Rose Sprite Sheet_7: -920131917
+      Pixel Art Rose Sprite Sheet_23: -1011385570
+      Pixel Art Rose Sprite Sheet_41: 1879426263
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
