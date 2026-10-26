@@ -1,23 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
-public class SpawnDinosaur : EnemyController
+public class DinasourEnemy : EnemyController
 {
-    public Transform enemy;
-    public Transform spawnPoint;
-
-    void RespawnEnemy()
+    void FixedUpdate()
     {
-
-        Instantiate(enemy, spawnPoint.transform.position, spawnPoint.transform.rotation);
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
+        if (sr.flipX)
         {
-            RespawnEnemy();
+            GetComponent<Rigidbody2D>().velocity =
+                new Vector2(maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        }
+        else
+        {
+            GetComponent<Rigidbody2D>().velocity =
+                new Vector2(-maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
         }
     }
 }
