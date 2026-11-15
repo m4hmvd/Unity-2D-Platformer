@@ -8,9 +8,14 @@ public class FollowerEnemy : EnemyController
 
     void FixedUpdate()
     {
-        transform.position = Vector3.MoveTowards(
+        if (player == null) return;
+
+
+        Vector2 target = new Vector2(player.position.x, transform.position.y);
+
+        transform.position = Vector2.MoveTowards(
             transform.position,
-            player.position,
+            target,
             maxSpeed * Time.deltaTime
         );
     }

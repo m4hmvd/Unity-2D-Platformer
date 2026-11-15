@@ -20,7 +20,7 @@ public class CameraZoom : MonoBehaviour
         ScrollData = Input.GetAxis("Mouse ScrollWheel");
 
 
-        TargetZoom = TargetZoom - ScrollData;
+        TargetZoom = TargetZoom - ScrollData * 5f;
 
 
         TargetZoom = Mathf.Clamp(TargetZoom, 3f, 6f);

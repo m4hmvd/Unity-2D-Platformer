@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpHeight;
-    // private bool isFacingRight;
     public KeyCode Spacebar;
     public KeyCode L;
     public KeyCode R;
@@ -16,11 +15,16 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     private bool grounded;
 
+    // components, found once in Start()
     private Animator anim;
+    private Rigidbody2D rb;
+    private SpriteRenderer sr;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -35,55 +39,28 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(L))
         {
             moveInput = -1f;
-
-            if (GetComponent<SpriteRenderer>() != null)
-            {
-                GetComponent<SpriteRenderer>().flipX = true;
-            }
+            sr.flipX = true;
         }
         else if (Input.GetKey(R))
         {
             moveInput = 1f;
-
-            if (GetComponent<SpriteRenderer>() != null)
-            {
-                GetComponent<SpriteRenderer>().flipX = false;
-            }
+            sr.flipX = false;
         }
 
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
-        rb.velocity = new Vector2(
-            moveInput * moveSpeed,
-            rb.velocity.y
-        );
-        Debug.Log($"Input: {moveInput}, X Velocity: {rb.velocity.x}");
-        Debug.Log($"Position: {rb.position}");
-        if (anim != null)
-        {
-            anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
-            anim.SetFloat("Height", rb.velocity.y);
-            anim.SetBool("Grounded", grounded);
-        }
+        anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("Height", rb.velocity.y);
+        anim.SetBool("Grounded", grounded);
     }
-
-
-
 
     void Jump()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }
+
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-    }
-    void LateUpdate()
-    {
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-
-        Debug.Log(
-            $"Position: {rb.position} | Velocity: {rb.velocity}"
-        );
     }
 }
