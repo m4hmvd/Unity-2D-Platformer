@@ -4,11 +4,13 @@
 
 # 2D Unity Lab
 
-**A two-level pixel-art platformer built in Unity for the Game Design and Development lab at The British University in Egypt.**
+**Jump gaps, collect coins, and find your way past dinosaurs and moving saws in a two-level pixel-art platformer.**
 
-[Download for Windows](https://github.com/m4hmvd/Unity-2D-Platformer/releases/latest) · [Controls](#controls) · [Open in Unity](#open-in-unity)
+[Download for Windows](https://github.com/m4hmvd/Unity-2D-Platformer/releases/latest) · [Screenshots](#screenshots) · [Controls](#controls) · [Open in Unity](#open-in-unity)
 
-<img src="docs/screenshots/title-screen.png" alt="2D Unity Lab title screen with Start and Quit buttons above a grassy platform" width="900">
+<img src="docs/screenshots/game-cover.png" alt="Pixel-art illustration of the white-hooded player jumping toward three coins, a teal dinosaur, and the red-hooded NPC" width="900">
+
+<sub>Cover illustration inspired by the game.</sub>
 
 </div>
 
@@ -16,13 +18,21 @@
 
 Download `Unity-2D-Platformer-Windows-x64.zip` from the [latest release](https://github.com/m4hmvd/Unity-2D-Platformer/releases/latest), extract the whole ZIP, and run `Unity-2D-Platformer.exe` from the extracted folder.
 
-Collect coins to raise your score, use checkpoints to recover from hazards, and grab the heart in Level 1 to unlock the next area. Your remaining lives and health carry into Level 2. Find the final door to reach the victory screen.
+## What you’ll find
+
+- **Level 1.** Pass the moving saw, use checkpoints and a rising platform, and collect the heart to open the way to Level 2. Look for the hooded NPC to start a conversation about the Eternal Dahlia.
+- **Level 2.** Cross the platforms, dodge or shoot the teal dinosaurs, and find the final door to reach the victory screen.
+- **Pickups and checkpoints.** Coins add to your score. Hearts heal when you’ve taken damage. Checkpoints let you recover after losing health, and your remaining health and lives carry into Level 2.
 
 ## Screenshots
 
-| Level 1 | Level 2 |
+| Level 1 · Moving saw | Level 2 · Dinosaur enemy |
 | :---: | :---: |
-| ![Gameplay at the start of Level 1](docs/screenshots/level-one.png) | ![Gameplay at the start of Level 2](docs/screenshots/level-two.png) |
+| ![The player beside a moving saw in Level 1](docs/screenshots/moving-saw.png) | ![The player facing a teal dinosaur with coins overhead in Level 2](docs/screenshots/dinosaur-enemy.png) |
+
+### Hooded NPC dialogue
+
+![The player meets the red-hooded NPC in Level 1, with the dialogue box open](docs/screenshots/hooded-npc.png)
 
 ## Controls
 
@@ -41,6 +51,8 @@ Collect coins to raise your score, use checkpoints to recover from hazards, and 
 3. To build a Windows player, open **File → Build Settings**, select **PC, Mac & Linux Standalone**, choose **Windows** and **x86-64**, and select **Build**.
 
 The build starts at `Intro` and includes `Level1`, `Level2`, `GameOver`, and `Finish`.
+
+Made for the **Game Design and Development** lab at **The British University in Egypt**.
 
 | Folder | Contents |
 | --- | --- |
