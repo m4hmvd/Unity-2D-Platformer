@@ -13,6 +13,10 @@ public class PlayerStats : MonoBehaviour
     public static int score = 0;
     public static bool hasHeart = false;
 
+    // carried from one level to the next so Level 2 continues where Level 1 ended (-1 = start fresh)
+    public static int carriedLives = -1;
+    public static int carriedHealth = -1;
+
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
 
@@ -29,8 +33,30 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        health = maxHealth;
-        healthBar.fillAmount = 1f;
+        if (carriedLives >= 0)
+        {
+            lives = carriedLives;
+            health = Mathf.Clamp(carriedHealth, 1, maxHealth);
+        }
+        else
+        {
+            health = maxHealth;
+        }
+        healthBar.fillAmount = (float)health / maxHealth;
+    }
+
+    // call before loading the next level
+    public void SaveForNextLevel()
+    {
+        carriedLives = lives;
+        carriedHealth = health;
+    }
+
+    // call when a new game starts
+    public static void ResetCarried()
+    {
+        carriedLives = -1;
+        carriedHealth = -1;
     }
 
     void Update()

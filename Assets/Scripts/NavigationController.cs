@@ -19,7 +19,14 @@ public class NavigationController : MonoBehaviour
         SceneManager.LoadScene(1);   // Level1
     }
 
-    // Quit button (Intro + Game Over)
+    // Finish screen: Main Menu button
+    public void onClickMainMenu()
+    {
+        ResetGame();
+        SceneManager.LoadScene(0);   // Intro
+    }
+
+    // Quit button (Intro, Game Over and Finish)
     public void onClickQuit()
     {
         Debug.Log("Quit");           // Application.Quit does nothing inside the editor
@@ -31,5 +38,6 @@ public class NavigationController : MonoBehaviour
     {
         PlayerStats.score = 0;
         PlayerStats.hasHeart = false;
+        PlayerStats.ResetCarried();
     }
 }

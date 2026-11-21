@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public float maxSpeed = 2;
     public int damage = 1;
     public SpriteRenderer sr;
+    public int health = 10;
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -16,6 +17,16 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
 
+    }
+    public void EnemyTakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            health = 0;
+            Debug.Log("Enemy Finished");
+            Destroy(gameObject);
+        }
     }
     public void Flip()
     {

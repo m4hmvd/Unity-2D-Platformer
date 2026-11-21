@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Lab 7, Exercise 20: the player can only go to Level 2 after finding the heart.
 public class EntryToLevel2 : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
@@ -12,7 +11,10 @@ public class EntryToLevel2 : MonoBehaviour
         {
             if (PlayerStats.hasHeart == true)
             {
-                SceneManager.LoadScene(2);   // Level2 (Build Settings number)
+                // keep lives and health so Level 2 continues from here
+                PlayerStats stats = other.GetComponentInParent<PlayerStats>();
+                if (stats != null) stats.SaveForNextLevel();
+                SceneManager.LoadScene(2);
             }
             else
             {
